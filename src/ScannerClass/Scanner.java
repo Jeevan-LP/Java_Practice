@@ -1,0 +1,19 @@
+package ScannerClass;
+
+public class Scanner {
+
+	public static void main(String[] args) {
+
+	java.util.Scanner sc = new java.util.Scanner(System.in);
+	
+	System.out.println("1st");
+	int a=sc.nextInt();
+	
+	System.out.println("2nd ");
+	int b=sc.nextInt();
+	
+	int c=a+b;
+	System.out.println(c);
+	}
+
+}
