@@ -6,7 +6,14 @@ public class UncheckedException {
 
 		System.out.println("excution start");
 		String name="Jeevan Gowda";
-		
+		try {
+		System.out.println(name.charAt(12));
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			//System.out.println(e.getMessage());
+		}
+		/*
 		try {
 		System.out.println(name.charAt(12));
 		}
@@ -25,7 +32,8 @@ public class UncheckedException {
 		catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
-		System.out.println("excution end");
+		System.out.println("excution end");*/
+		
 
 	}
 

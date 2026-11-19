@@ -21,7 +21,7 @@ public class ArrayListCollection {
 	alist.set(0, "Appu");
 	System.out.println("on setting data = "+alist);
 	alist.add(2, 100);
-	System.err.println("on adding data = "+alist);
+	System.out.println("on adding data = "+alist);
 	System.out.println("size of collection = "+alist.size());
 	alist.remove(4);
 	System.out.println(alist);

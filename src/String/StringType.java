@@ -23,7 +23,7 @@ public class StringType {
 		System.out.println(s3.startsWith("jeevan"));
 		System.out.println(s3.endsWith("boy"));
 		System.out.println(s1.contains("Hello"));
-		System.out.println(s3.strip());
+		//System.out.println(s3.strip());
 		/////////////////////////////////////////////////////////////////////////////////////////////////////
 		String s = new String("jee");
 		System.out.println(s);

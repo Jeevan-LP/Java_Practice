@@ -4,8 +4,12 @@ public class MethodOverRidingSuperA {
 
 	String name="Jeevan";
 	
-	void details() {
-		System.out.println(name);
-		System.out.println("parent class");
+//	void details() {
+//		System.out.println(name);
+//		System.out.println("parent class");
+//	}
+	String details() {
+		return this.name;
+		
 	}
 }

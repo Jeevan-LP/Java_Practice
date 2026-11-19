@@ -16,5 +16,8 @@ public class constcuctorOverloadingSuper {
 		System.out.println("3nd");
 	}
 
+	public static void main(String[] args) {
+		
+	}
 
 }

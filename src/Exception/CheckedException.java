@@ -7,7 +7,7 @@ public class CheckedException {
 		System.out.println("excution start");
 		int a=20, b=0;
 		
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		System.out.println("divisible of a/b "+a/b);
 		
 		System.out.println("excution end");

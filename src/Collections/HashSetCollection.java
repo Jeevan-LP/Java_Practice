@@ -1,13 +1,14 @@
 package Collections;
 
-import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 
 public class HashSetCollection {
 
 	public static void main(String[] args) {
 
-		HashSet set = new HashSet();
+		//HashSet set = new HashSet();
+		LinkedHashSet set = new LinkedHashSet();
 		set.add("Appu");
 		set.add(50);
 		set.add(95.84);
